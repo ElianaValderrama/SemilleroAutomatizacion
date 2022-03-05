@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Prueba de servicios en bloque User" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-05T20:25:51" hostname="SQABOG-TGP4774" time="7.666">
+  <properties/>
+  <testcase name="Creacion, consulta y eliminacion de User" classname="Prueba de servicios en bloque User" time="7.666"/>
+  <system-out><![CDATA[{"code":200,"type":"unknown","message":"ok"}
+{"id":1,"username":"EliV","firstName":"Eliana","lastName":"Valderrama","email":"eli@gmail.com","password":"abc123","phone":"1122334455","userStatus":1}
+{"code":200,"type":"unknown","message":"EliV"}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

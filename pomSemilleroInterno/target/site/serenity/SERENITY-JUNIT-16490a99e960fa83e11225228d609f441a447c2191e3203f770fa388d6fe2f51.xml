@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Busqueda exitosa con datos extraidos de un xlsx" skipped="0" tests="1" time="16.69" timestamp="2022-02-10 06:55:35"><testcase name="Buscar en google"><failure message="expected:&lt;Se[mifinal]&gt; but was:&lt;Se[ries]&gt;" type="java.lang.AssertionError">expected:&lt;Se[mifinal]&gt; but was:&lt;Se[ries]&gt;</failure><system-err>expected:&lt;Se[mifinal]&gt; but was:&lt;Se[ries]&gt;&#13;
+steps.GoogleStep.validar(GoogleStep.java:59)&#13;
+stepDefinitions.GoogleBusqStepDefinitions.haceLaBusquedaYMeMuestraResultados(GoogleBusqStepDefinitions.java:41)&#13;
+✽.hace la busqueda y me muestra resultados(src/test/resources/features/googleBusq.feature:8)&#13;
+</system-err></testcase></testsuite>
