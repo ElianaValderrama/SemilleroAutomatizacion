@@ -14,13 +14,13 @@ public class PetstoreSteps {
     }
     @Step
     public void consultarOrden(){
-        SerenityRest.given().baseUri(dataInyection.getUrlOrderGet()).contentType(dataInyection.getHeaders()).body(dataInyection.getBodyOrder()).get();
+        SerenityRest.given().baseUri(dataInyection.getUrlOrderGet()).contentType(dataInyection.getHeaders()).body(dataInyection.getBodyUserGet()).get();
         System.out.println(SerenityRest.lastResponse().asString());
     }
 
     @Step
     public void eliminarOrden(){
-        SerenityRest.given().baseUri(dataInyection.getUrlOrderGet()).contentType(dataInyection.getHeaders()).body(dataInyection.getBodyOrder()).delete();
+        SerenityRest.given().baseUri(dataInyection.getUrlOrderGet()).contentType(dataInyection.getHeaders()).delete();
         System.out.println(SerenityRest.lastResponse().asString());
     }
 }

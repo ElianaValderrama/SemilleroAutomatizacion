@@ -16,15 +16,11 @@ public class OrderStepDefinition {
 
     @When("^creo y consulto una orden$")
     public void creoYConsultoUnaOrden() {
-        /*petstoreSteps.crearOrden();
-        petstoreSteps.consultarOrden();
-        petstoreSteps.eliminarOrden();*/
         petstoreSteps.crearOrden();
         petstoreSteps.consultarOrden();
-       /* petstoreSteps.crearOrden();
-        petstoreSteps.consultarOrden();
         petstoreSteps.eliminarOrden();
-        petstoreSteps.consultarOrden();*/
+        petstoreSteps.consultarOrden();
+
     }
 
     @Then("^luego la elimino$")

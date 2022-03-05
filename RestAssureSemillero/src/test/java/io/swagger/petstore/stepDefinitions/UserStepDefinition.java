@@ -14,6 +14,7 @@ public class UserStepDefinition {
         petUserSteps.crearUser();
         petUserSteps.leerUser();
         petUserSteps.eliminarUser();
+        petUserSteps.leerUser();
     }
 
     @Then("^luego la elimino el User$")

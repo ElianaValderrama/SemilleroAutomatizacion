@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Prueba de servicios en bloque Order","Creacion, consulta y eliminacion de order","SUCCESS","2022-03-01T18:32:55.184-05:00[America/Bogota]","0.0","6.11"
-"Prueba de servicios en bloque Pet","Creacion, consulta y eliminacion de Pet","SUCCESS","2022-03-05T14:37:28.107-05:00[America/Bogota]","0.0","8.11"
-"Prueba de servicios en bloque User","Creacion, consulta y eliminacion de User","SUCCESS","2022-03-05T15:25:50.845-05:00[America/Bogota]","0.0","7.89"
+"Prueba de servicios en bloque Order","Creacion, consulta y eliminacion de order","SUCCESS","2022-03-05T15:46:26.083-05:00[America/Bogota]","0.0","6.39"
+"Prueba de servicios en bloque Pet","Creacion, consulta y eliminacion de Pet","SUCCESS","2022-03-05T15:48:32.238-05:00[America/Bogota]","0.0","6.81"
+"Prueba de servicios en bloque User","Creacion, consulta y eliminacion de User","SUCCESS","2022-03-05T15:56:58.879-05:00[America/Bogota]","0.0","6.32"

@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Prueba de servicios en bloque Pet" skipped="0" tests="1" time="8.11" timestamp="2022-03-05 02:37:28"><testcase name="Creacion, consulta y eliminacion de Pet"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Prueba de servicios en bloque Pet" skipped="0" tests="1" time="6.81" timestamp="2022-03-05 03:48:32"><testcase name="Creacion, consulta y eliminacion de Pet"/></testsuite>

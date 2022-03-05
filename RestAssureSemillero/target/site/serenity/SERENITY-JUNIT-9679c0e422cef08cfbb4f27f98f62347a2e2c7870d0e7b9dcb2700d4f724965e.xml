@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Prueba de servicios en bloque User" skipped="0" tests="1" time="7.89" timestamp="2022-03-05 03:25:50"><testcase name="Creacion, consulta y eliminacion de User"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Prueba de servicios en bloque User" skipped="0" tests="1" time="6.32" timestamp="2022-03-05 03:56:58"><testcase name="Creacion, consulta y eliminacion de User"/></testsuite>

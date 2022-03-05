@@ -22,7 +22,7 @@ public class PetpetsSteps {
 
     @Step
     public void eliminarPet(){
-        SerenityRest.given().baseUri(dataInyection.getUrlPetGetDel()).contentType(dataInyection.getHeaders()).delete();
+        SerenityRest.given().baseUri(dataInyection.getUrlOrderGet()).contentType(dataInyection.getHeaders()).delete();
         System.out.println(SerenityRest.lastResponse().asString());
     }
 }

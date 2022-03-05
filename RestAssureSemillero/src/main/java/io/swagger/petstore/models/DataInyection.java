@@ -8,11 +8,12 @@ public class DataInyection {
     Faker faker = new Faker(new Locale("en-US"));
 
     private String urlPetPost, urlPetGetDel, headers, bodyPetPost, bodyPetGetDel;
-    private String urlOrderPost, urlOrderGet, bodyOrder;
+    private String urlOrderPost, urlOrderGet, bodyOrder, bodyOrderGet;
     private String urlUserPost, urlUserGetDel, bodyUserPost, bodyUserGet;
     private final int STATUSCODE;
 
     public DataInyection() {
+        this.headers = "application/json";
         this.urlPetPost = "https://petstore.swagger.io/v2/pet";
         this.bodyPetPost = "{\n" +
                 "  \"id\": 2,\n" +
@@ -45,15 +46,22 @@ public class DataInyection {
                 "  \"status\": \"available\"\n" +
                 "}";
         this.urlOrderPost = "https://petstore.swagger.io/v2/store/order";
-        this.urlOrderGet = "https://petstore.swagger.io/v2/store/order/1";
-        this.headers = "application/json";
         this.bodyOrder = "{\n" +
-                "  \"id\": 1,\n" +
+                "  \"id\": 2,\n" +
                 "  \"petId\": 1,\n" +
-                "  \"quantity\": 9,\n" +
-                "  \"shipDate\": \"2022-02-25T17:46:27.794Z\",\n" +
+                "  \"quantity\": 10,\n" +
+                "  \"shipDate\": \"2022-03-05T20:40:21.980Z\",\n" +
                 "  \"status\": \"placed\",\n" +
-                "  \"complete\": true,\n" +
+                "  \"complete\": true\n" +
+                "}";
+        this.urlOrderGet = "https://petstore.swagger.io/v2/store/order/2";
+        this.bodyOrderGet = "{\n" +
+                "  \"id\": 2,\n" +
+                "  \"petId\": 2,\n" +
+                "  \"quantity\": 0,\n" +
+                "  \"shipDate\": \"2022-03-05T00:00:00.000+0000\",\n" +
+                "  \"status\": \"placed\",\n" +
+                "  \"complete\": true\n" +
                 "}";
         this.urlUserPost = "https://petstore.swagger.io/v2/user/createWithArray";
         this.bodyUserPost = "[\n" +

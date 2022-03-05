@@ -15,6 +15,7 @@ public class PetStepDefinition {
         petpetsSteps.crearPet();
         petpetsSteps.leerPet();
         petpetsSteps.eliminarPet();
+        petpetsSteps.leerPet();
     }
 
     @Then("^luego la elimino el Pet$")
